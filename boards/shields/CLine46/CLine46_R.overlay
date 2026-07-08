@@ -15,7 +15,6 @@
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_temp_layer 4 10000>;
     };
 };
 
@@ -65,9 +64,11 @@
 
 &zip_temp_layer {
     excluded-positions = <
-        16 // J
-        17 // K
-        18 // l
+        8 // I
+        9 // O
+        10 // P
+        20 // K
+        21 // L
     >;
 };
 
@@ -78,7 +79,7 @@
         //<&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>;         //Y軸反転
         //<&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,        //X軸とY軸の入れ替え
         <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>;       //X軸反転
-        //<&zip_temp_layer 2 1000>;                            //オートマウスレイヤーの選択;
+        //<&zip_temp_layer 4 10000>;                            //オートマウスレイヤーの選択;
 
 
     scroller {
