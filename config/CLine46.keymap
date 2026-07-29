@@ -51,10 +51,10 @@
 
         default_layer {
             bindings = <
-&kp TAB     &kp Q    &kp W             &kp E     &kp R               &kp T                                           &kp Y      &kp U  &kp I      &kp O         &kp P          &kp LEFT_BRACKET
-&kp LCTRL   &kp A    &kp S             &kp D     &kp F               &kp G                                           &kp H      &kp J  &kp K      &kp L         &kp MINUS      &kp RIGHT_BRACKET
-&kp LSHIFT  &kp Z    &kp X             &kp C     &kp V               &kp B                                           &kp N      &kp M  &kp COMMA  &kp DOT       &mo 3          &kp RSHIFT
-            &kp AT_SIGN  &kp LALT  &kp LEFT_CONTROL  &lt 2 LANG1  &lt 1 LANG2  &lt 4 SPACE    &kp DELETE  &kp ENTER                    &kp KP_EQUAL  &kp BACKSPACE
+&kp TAB     &kp Q    &kp W             &kp E     &kp R               &kp T                                           &kp Y      &kp U  &kp I      &kp O         &kp P          &kp EQUAL
+&kp LCTRL   &kp A    &kp S             &kp D     &kp F               &kp G                                           &kp H      &kp J  &kp K      &kp L         &lt 3 UP_ARROW      &mt RIGHT_CONTROL DOT
+&kp LSHIFT  &kp Z    &kp X             &kp C     &kp V               &kp B                                           &kp N      &kp M  &kp COMMA  &kp LEFT_ARROW       &kp DOWN_ARROW    &mt RSHIFT RIGHT_ARROW
+            &kp AT_SIGN  &kp LALT  &kp LEFT_CONTROL  &lt 2 LANG1  &lt 1 LANG2  &lt 4 SPACE    &kp DELETE  &kp ENTER                    &kp RCTRL  &kp RS(SLASH)
             >;
         };
 
