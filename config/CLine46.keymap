@@ -60,10 +60,10 @@
 
         layer_1 {
             bindings = <
-&kp CARET  &kp EQUAL     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp AT_SIGN                        &kp LEFT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp RIGHT_PARENTHESIS  &kp SEMI   &kp EXCLAMATION  &kp QMARK
-&kp MINUS  &kp PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp HASH                           &kp LEFT_BRACKET      &kp SINGLE_QUOTE   &kp RIGHT_BRACKET      &kp COLON  &kp AMPERSAND    &kp PIPE
-&kp SLASH  &kp ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UNDERSCORE                     &kp SLASH             &kp BACKSLASH      &kp COMMA              &kp DOT    &kp DOLLAR       &kp PERCENT
-           &kp ESC       &kp NUMBER_0  &kp DOT       &trans        &trans          &trans    &kp RET  &kp BSPC                                                        &kp DEL    &trans
+&trans      &trans    &trans        &kp LS(NUMBER_8)    &kp LS(NUMBER_9) &trans                                      &trans  &kp RS(COLON)  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &trans
+&trans      &trans    &kp COLON     &kp LEFT_BRACE      &kp RIGHT_BRACE  &trans                                      &trans  &kp SLASH      &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp RS(SEMI)
+&trans      &trans    &kp SEMI      &kp LS(COMMA)       &kp LS(DOT)      &trans                                      &trans  &trans         &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &trans
+            &kp CARET &trans        &trans              &trans           &trans  &trans       &kp AT_SIGN  &kp BACKSLASH                                                 &kp NUMBER_0  &kp RS(NUMBER_1)
             >;
         };
 
